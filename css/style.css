@@ -1,0 +1,43 @@
+.wrapper {
+    width: min(98%, 980px);
+    margin: auto;
+    transform: scale(1);
+    box-shadow: 0 0 0 black;
+    filter: blur(0);
+    /* from state */
+    transition: all 0.2s ease-in;
+}
+
+.wrapper.wrapper-main {
+    background-color: burlywood;
+}
+
+.wrapper.is-scaled {
+    /* to state */
+    transition: all 2s ease-in;
+    transform: scale(0.9);
+    box-shadow: 0 0 12px black;
+    filter: blur(8px);
+}
+
+footer {
+    background-color: lightblue;
+    height: 200px;
+}
+footer::before {
+    content: attr(class);
+    width: 300px;
+    height: 100px;
+    box-shadow: 0px 0px 4px;
+    line-height: 100px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2em;
+    background-color: inherit;
+    position: fixed;
+    transform: translate(-120%, -120%);
+}
+
+footer.in-view {
+    background-color: lightcoral;
+}
