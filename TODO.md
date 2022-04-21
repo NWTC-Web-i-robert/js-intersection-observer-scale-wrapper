@@ -12,6 +12,7 @@
 - [ ] README Resources
   - [ ] https://css-tricks.com/almanac/properties/f/filter/
 - [ ] Connect with Netlify
+- [ ] Add validation links
 
 
 ## Refactors
