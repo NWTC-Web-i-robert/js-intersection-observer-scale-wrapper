@@ -2,6 +2,9 @@
 
 ## Issues
 
+- [ ] Initial Load - stuck in the wrong state if page is scrolled to bottom
+  - [ ] Need to fix the logic toggle is adding automatically
+
 
 ## Features
 
